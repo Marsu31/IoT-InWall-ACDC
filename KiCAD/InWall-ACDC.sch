@@ -1,0 +1,290 @@
+EESchema Schematic File Version 4
+LIBS:HLK-PM01_Breakout_board-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "In Wall AC-DC"
+Date "2019-07-18"
+Rev "1.0"
+Comp ""
+Comment1 "author: Marsu31"
+Comment2 "url: https://github.com/Marsu31/IoT-InWall-ACDC"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP C1
+U 1 1 59F396E4
+P 6450 3900
+F 0 "C1" H 6475 4000 50  0000 L CNN
+F 1 "100u" H 6475 3800 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6488 3750 50  0001 C CNN
+F 3 "" H 6450 3900 50  0000 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 59F35935
+P 4000 3750
+F 0 "F1" V 3900 3750 50  0000 C CNN
+F 1 "slow blow (200mA)" V 4100 3750 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" H 4000 3750 50  0001 C CNN
+F 3 "" H 4000 3750 50  0000 C CNN
+	1    4000 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Varistor VR1
+U 1 1 59F35C71
+P 4750 3900
+F 0 "VR1" H 4550 3850 50  0000 C TNN
+F 1 "S10K275" H 4600 3650 50  0000 C CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" H 4750 3900 50  0001 C CNN
+F 3 "" H 4750 3900 50  0000 C CNN
+	1    4750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F3
+U 1 1 59F35A15
+P 6050 3750
+F 0 "F3" V 5950 3750 50  0000 C CNN
+F 1 "fast blow (1A)" V 6150 3750 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" H 6050 3750 50  0001 C CNN
+F 3 "" H 6050 3750 50  0000 C CNN
+	1    6050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 59F3978B
+P 6700 3900
+F 0 "C2" H 6725 4000 50  0000 L CNN
+F 1 "100n" H 6725 3800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6738 3750 50  0001 C CNN
+F 3 "" H 6700 3900 50  0000 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4050 6700 4050
+Wire Wire Line
+	6450 3750 6700 3750
+$Comp
+L Device:Fuse F2
+U 1 1 5D3347A4
+P 4400 3750
+F 0 "F2" V 4300 3750 50  0000 C CNN
+F 1 "73°C" V 4500 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" H 4400 3750 50  0001 C CNN
+F 3 "~" H 4400 3750 50  0001 C CNN
+	1    4400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Converter_ACDC:HLK-PM03 U1
+U 1 1 59F353C2
+P 5300 3900
+F 0 "U1" H 5300 3800 60  0000 C CNN
+F 1 "HLK-PM03" H 5300 3900 60  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx" H 5195 3930 60  0001 C CNN
+F 3 "" H 5195 3930 60  0001 C CNN
+	1    5300 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 3750
+Connection ~ 6450 4050
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D3A4F37
+P 3550 3750
+F 0 "#FLG01" H 3550 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 3900 50  0000 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "~" H 3550 3750 50  0001 C CNN
+	1    3550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D3A5200
+P 3550 4050
+F 0 "#FLG02" H 3550 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 4300 50  0000 C CNN
+F 2 "" H 3550 4050 50  0001 C CNN
+F 3 "~" H 3550 4050 50  0001 C CNN
+	1    3550 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5D37DFFE
+P 3350 3850
+F 0 "J1" H 3500 3800 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3700 3600 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3350 3850 50  0001 C CNN
+F 3 "~" H 3350 3850 50  0001 C CNN
+	1    3350 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3800 4900 3750
+Wire Wire Line
+	4900 4000 4900 4050
+Wire Wire Line
+	4900 4050 4750 4050
+Wire Wire Line
+	4750 3750 4550 3750
+Connection ~ 4750 3750
+Wire Wire Line
+	3550 3750 3550 3850
+Wire Wire Line
+	3550 4050 3550 3950
+Connection ~ 4750 4050
+Connection ~ 3550 3750
+Connection ~ 3550 4050
+Wire Wire Line
+	5700 3750 5700 3800
+Wire Wire Line
+	5700 4000 5700 4050
+Wire Wire Line
+	4150 3750 4250 3750
+Wire Wire Line
+	4750 3750 4900 3750
+$Comp
+L power:LINE #PWR01
+U 1 1 5D4043DF
+P 4900 3750
+F 0 "#PWR01" H 4900 3600 50  0001 C CNN
+F 1 "LINE" H 5000 3900 50  0000 C CNN
+F 2 "" H 4900 3750 50  0001 C CNN
+F 3 "" H 4900 3750 50  0001 C CNN
+	1    4900 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 3750
+Wire Wire Line
+	3550 3750 3850 3750
+$Comp
+L power:NEUT #PWR02
+U 1 1 5D404BA2
+P 4900 4050
+F 0 "#PWR02" H 4900 3900 50  0001 C CNN
+F 1 "NEUT" H 4750 4150 50  0000 C CNN
+F 2 "" H 4900 4050 50  0001 C CNN
+F 3 "" H 4900 4050 50  0001 C CNN
+	1    4900 4050
+	-1   0    0    1   
+$EndComp
+Connection ~ 4900 4050
+Connection ~ 6700 4050
+Wire Wire Line
+	6950 4050 6700 4050
+Connection ~ 6700 3750
+Wire Wire Line
+	6700 3750 6950 3750
+Wire Wire Line
+	5700 4050 6450 4050
+$Comp
+L power:GND #PWR04
+U 1 1 5D403E90
+P 6950 4050
+F 0 "#PWR04" H 6950 3800 50  0001 C CNN
+F 1 "GND" H 6955 3877 50  0000 C CNN
+F 2 "" H 6950 4050 50  0001 C CNN
+F 3 "" H 6950 4050 50  0001 C CNN
+	1    6950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3750 6200 3750
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5D40374F
+P 6950 3750
+F 0 "#PWR03" H 6950 3600 50  0001 C CNN
+F 1 "+3V3" H 6950 3900 50  0000 C CNN
+F 2 "" H 6950 3750 50  0001 C CNN
+F 3 "" H 6950 3750 50  0001 C CNN
+	1    6950 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3750
+Connection ~ 6950 4050
+Wire Wire Line
+	3550 4050 4750 4050
+$Comp
+L Sensor_Temperature:DS18B20 U2
+U 1 1 5D445232
+P 7650 3900
+F 0 "U2" H 7420 3946 50  0000 R CNN
+F 1 "DS18B20" H 7420 3855 50  0000 R CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6650 3650 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 7500 4150 50  0001 C CNN
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3750 7250 3750
+Wire Wire Line
+	6950 4050 7250 4050
+Wire Wire Line
+	7250 4050 7250 4200
+Wire Wire Line
+	7250 4200 7650 4200
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5D44E4E8
+P 8700 3900
+F 0 "J2" H 8780 3942 50  0000 L CNN
+F 1 "Conn_01x03" H 8780 3851 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 8700 3900 50  0001 C CNN
+F 3 "~" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D44FAD7
+P 8150 3650
+F 0 "R1" H 8080 3604 50  0000 R CNN
+F 1 "4.7k" H 8080 3695 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8080 3650 50  0001 C CNN
+F 3 "~" H 8150 3650 50  0001 C CNN
+	1    8150 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 3900 8150 3900
+Wire Wire Line
+	8150 3800 8150 3900
+Connection ~ 8150 3900
+Wire Wire Line
+	8150 3900 8500 3900
+Wire Wire Line
+	8150 3500 8150 3400
+Wire Wire Line
+	8150 3400 8500 3400
+Wire Wire Line
+	8500 3400 8500 3800
+Wire Wire Line
+	8150 3400 7650 3400
+Wire Wire Line
+	7650 3400 7650 3600
+Connection ~ 8150 3400
+Wire Wire Line
+	7650 3400 7250 3400
+Wire Wire Line
+	7250 3400 7250 3750
+Connection ~ 7650 3400
+Wire Wire Line
+	7650 4200 8500 4200
+Wire Wire Line
+	8500 4200 8500 4000
+Connection ~ 7650 4200
+Wire Wire Line
+	5700 3750 5900 3750
+$EndSCHEMATC
