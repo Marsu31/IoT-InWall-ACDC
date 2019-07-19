@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 46)
-    (tracks 56)
+    (tracks 51)
     (zones 0)
     (modules 64)
     (nets 9)
@@ -486,7 +486,7 @@
       (xy -1.971615 -1.454739) (xy -1.908759 -1.469184)) (layer B.SilkS) (width 0.01))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96E6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96E6)
     (at 210 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -497,7 +497,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96DE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96DE)
     (at 208 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -508,7 +508,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96D6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96D6)
     (at 206 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -519,7 +519,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96CE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96CE)
     (at 204 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -530,7 +530,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96C6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96C6)
     (at 202 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -541,7 +541,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96BE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96BE)
     (at 200 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -552,7 +552,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96B6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96B6)
     (at 198 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -563,7 +563,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96AE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96AE)
     (at 196 75)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -574,7 +574,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96A6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F96A6)
     (at 210 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -585,7 +585,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F969E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F969E)
     (at 208 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -596,7 +596,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9696)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9696)
     (at 206 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -607,7 +607,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F968E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F968E)
     (at 204 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -618,7 +618,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9686)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9686)
     (at 202 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -629,7 +629,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F967E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F967E)
     (at 200 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -640,7 +640,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9676)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9676)
     (at 198 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -651,7 +651,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F966E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F966E)
     (at 196 73)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -662,7 +662,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9666)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9666)
     (at 210 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -673,7 +673,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F965E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F965E)
     (at 208 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -684,7 +684,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9656)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9656)
     (at 206 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -695,7 +695,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F964E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F964E)
     (at 204 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -706,7 +706,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9646)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9646)
     (at 202 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -717,7 +717,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F963E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F963E)
     (at 200 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -728,7 +728,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9636)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9636)
     (at 198 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -739,7 +739,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F962E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F962E)
     (at 196 71)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -750,7 +750,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9626)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9626)
     (at 210 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -761,7 +761,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F961E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F961E)
     (at 208 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -772,7 +772,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9616)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9616)
     (at 206 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -783,7 +783,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F960E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F960E)
     (at 204 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -794,7 +794,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9606)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9606)
     (at 202 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -805,7 +805,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95FE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95FE)
     (at 200 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -816,7 +816,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95F6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95F6)
     (at 198 69)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -827,7 +827,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95E6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95E6)
     (at 210 67)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -838,7 +838,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95DE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95DE)
     (at 208 67)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -849,7 +849,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95D6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95D6)
     (at 206 67)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -860,7 +860,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95CE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95CE)
     (at 204 67)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -871,7 +871,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95C6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95C6)
     (at 202 67)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -882,7 +882,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95BE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95BE)
     (at 200 67)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -893,7 +893,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95A6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F95A6)
     (at 210 65)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -904,7 +904,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F959E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F959E)
     (at 208 65)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -915,7 +915,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9596)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9596)
     (at 206 65)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -926,7 +926,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F958E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F958E)
     (at 204 65)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -937,7 +937,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9586)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9586)
     (at 202 65)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -948,7 +948,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9566)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9566)
     (at 210 63)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -959,7 +959,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F955E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F955E)
     (at 208 63)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -970,7 +970,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9556)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9556)
     (at 206 63)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -981,7 +981,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F954E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F954E)
     (at 204 63)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -992,7 +992,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9526)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9526)
     (at 210 61)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1003,7 +1003,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F951E)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F951E)
     (at 208 61)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1014,7 +1014,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9516)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F9516)
     (at 206 61)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1025,7 +1025,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F94E6)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F94E6)
     (at 210 59)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1036,7 +1036,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   )
 
-  (module lib_projet:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F94DE)
+  (module Project_Module:hole_1mm (layer F.Cu) (tedit 5D2F848B) (tstamp 5D2F94DE)
     (at 208 59)
     (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1379,11 +1379,11 @@
     (fp_line (start -2.45 3.4) (end 7.45 3.4) (layer F.Fab) (width 0.1))
     (fp_line (start -2.45 -2.35) (end -2.45 3.4) (layer F.Fab) (width 0.1))
     (pad 3 thru_hole oval (at 5 0 90) (size 1.7 1.95) (drill 0.95) (layers *.Cu *.Mask)
-      (net 5 GND))
+      (net 6 +3V3))
     (pad 2 thru_hole oval (at 2.5 0 90) (size 1.7 1.95) (drill 0.95) (layers *.Cu *.Mask)
       (net 7 "Net-(J2-Pad2)"))
     (pad 1 thru_hole roundrect (at 0 0 90) (size 1.7 1.95) (drill 0.95) (layers *.Cu *.Mask) (roundrect_rratio 0.147059)
-      (net 6 +3V3))
+      (net 5 GND))
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1672,10 +1672,10 @@
   (gr_text °C (at 162.8 79.5 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text VCC (at 162.9 82.6 90) (layer B.SilkS)
+  (gr_text VCC (at 162.8 76.6 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text GND (at 162.8 76.3 90) (layer B.SilkS)
+  (gr_text GND (at 162.8 82.6 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "marron\nrouge" (at 173.8 61.3) (layer Eco2.User) (tstamp 5D309F8A)
@@ -1723,10 +1723,10 @@
   (gr_text P (at 170.7 61.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text GND (at 168.9 76.3 270) (layer F.SilkS)
+  (gr_text GND (at 168.9 83.4 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text VCC (at 168.8 83.3 270) (layer F.SilkS)
+  (gr_text VCC (at 168.9 76.5 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension 17 (width 0.15) (layer Eco1.User)
@@ -1801,22 +1801,23 @@
   (gr_line (start 162 49) (end 213 49) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 162 85) (end 162 49) (layer Edge.Cuts) (width 0.15) (tstamp 5D2C08DC))
 
-  (segment (start 188.22 52.38) (end 186.8 53.8) (width 1.8) (layer F.Cu) (net 1))
-  (segment (start 190.1 52.38) (end 188.22 52.38) (width 1.8) (layer F.Cu) (net 1))
-  (segment (start 164.2 59.7) (end 165.9 61.4) (width 1.8) (layer F.Cu) (net 2))
-  (segment (start 164.2 53.8) (end 164.2 59.7) (width 1.8) (layer F.Cu) (net 2))
-  (segment (start 205.29 54.194552) (end 205.29 51.91) (width 1.8) (layer F.Cu) (net 3))
-  (segment (start 191.449999 68.034553) (end 205.29 54.194552) (width 1.8) (layer F.Cu) (net 3))
-  (segment (start 191.449999 71.350001) (end 191.449999 68.034553) (width 1.8) (layer F.Cu) (net 3))
-  (segment (start 190.1 72.7) (end 191.449999 71.350001) (width 1.8) (layer F.Cu) (net 3))
-  (segment (start 187.8 72.7) (end 184.1 69) (width 1.8) (layer F.Cu) (net 3))
-  (segment (start 190.1 72.7) (end 187.8 72.7) (width 1.8) (layer F.Cu) (net 3))
-  (segment (start 184.227208 61.5) (end 185.5 61.5) (width 1.8) (layer F.Cu) (net 4))
-  (segment (start 174.729998 61.5) (end 184.227208 61.5) (width 1.8) (layer F.Cu) (net 4))
-  (segment (start 169.749998 66.48) (end 174.729998 61.5) (width 1.8) (layer F.Cu) (net 4))
-  (segment (start 165.9 66.48) (end 169.749998 66.48) (width 1.8) (layer F.Cu) (net 4))
-  (segment (start 190.7 61.5) (end 185.5 61.5) (width 1.8) (layer F.Cu) (net 4))
-  (segment (start 200.29 51.91) (end 190.7 61.5) (width 1.8) (layer F.Cu) (net 4))
+  (segment (start 188.22 52.38) (end 186.8 53.8) (width 1.8) (layer B.Cu) (net 1))
+  (segment (start 190.1 52.38) (end 188.22 52.38) (width 1.8) (layer B.Cu) (net 1))
+  (segment (start 165.9 55.5) (end 164.2 53.8) (width 1.8) (layer B.Cu) (net 2))
+  (segment (start 165.9 61.4) (end 165.9 55.5) (width 1.8) (layer B.Cu) (net 2))
+  (segment (start 190.1 70.790812) (end 190.1 72.7) (width 1.8) (layer B.Cu) (net 3))
+  (segment (start 190.1 69.384552) (end 190.1 70.790812) (width 1.8) (layer B.Cu) (net 3))
+  (segment (start 205.29 54.194552) (end 190.1 69.384552) (width 1.8) (layer B.Cu) (net 3))
+  (segment (start 205.29 51.91) (end 205.29 54.194552) (width 1.8) (layer B.Cu) (net 3))
+  (segment (start 187.8 72.7) (end 184.1 69) (width 1.8) (layer B.Cu) (net 3))
+  (segment (start 190.1 72.7) (end 187.8 72.7) (width 1.8) (layer B.Cu) (net 3))
+  (segment (start 190.7 61.5) (end 185.5 61.5) (width 1.8) (layer B.Cu) (net 4))
+  (segment (start 200.29 51.91) (end 190.7 61.5) (width 1.8) (layer B.Cu) (net 4))
+  (segment (start 184.227208 61.5) (end 185.5 61.5) (width 1.8) (layer B.Cu) (net 4))
+  (segment (start 174.729998 61.5) (end 184.227208 61.5) (width 1.8) (layer B.Cu) (net 4))
+  (segment (start 171.249997 64.980001) (end 174.729998 61.5) (width 1.8) (layer B.Cu) (net 4))
+  (segment (start 167.399999 64.980001) (end 171.249997 64.980001) (width 1.8) (layer B.Cu) (net 4))
+  (segment (start 165.9 66.48) (end 167.399999 64.980001) (width 1.8) (layer B.Cu) (net 4))
   (segment (start 180.200002 71.3) (end 179.7 71.3) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 187.100001 78.199999) (end 180.200002 71.3) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 207.379999 78.199999) (end 187.100001 78.199999) (width 0.5) (layer F.Cu) (net 5))
@@ -1824,13 +1825,11 @@
   (segment (start 175.6 71.3) (end 175.3 71) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 179.7 71.3) (end 175.6 71.3) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 175.3 71) (end 170.9 71) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 162.709989 75.234989) (end 164.575 77.1) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 162.709989 71.365335) (end 162.709989 75.234989) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 163.825334 70.24999) (end 162.709989 71.365335) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 166.310663 70.249989) (end 163.825334 70.24999) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 164.575 77.1) (end 164.7 77.1) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 167.060674 71) (end 166.310663 70.249989) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 170.9 71) (end 167.060674 71) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 165.598372 81.201628) (end 164.7 82.1) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 167.799999 79.000001) (end 165.598372 81.201628) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 167.799999 73.695418) (end 167.799999 79.000001) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 170.9 71) (end 170.495417 71) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 170.495417 71) (end 167.799999 73.695418) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 175.5 73.3) (end 175.3 73.5) (width 0.5) (layer F.Cu) (net 6))
   (segment (start 179.7 73.3) (end 175.5 73.3) (width 0.5) (layer F.Cu) (net 6))
   (segment (start 170.94 73.5) (end 170.9 73.54) (width 0.5) (layer F.Cu) (net 6))
@@ -1843,18 +1842,14 @@
   (segment (start 164.76 73.43137) (end 164.928631 73.600001) (width 0.5) (layer F.Cu) (net 6))
   (segment (start 164.928631 73.600001) (end 169.589999 73.600001) (width 0.5) (layer F.Cu) (net 6))
   (segment (start 164.76 72.3) (end 164.76 73.43137) (width 0.5) (layer F.Cu) (net 6))
-  (segment (start 170.9 75.9) (end 164.7 82.1) (width 0.5) (layer F.Cu) (net 6))
-  (segment (start 170.9 73.54) (end 170.9 75.9) (width 0.5) (layer F.Cu) (net 6))
+  (segment (start 164.76 77.04) (end 164.7 77.1) (width 0.5) (layer B.Cu) (net 6))
+  (segment (start 164.76 72.3) (end 164.76 77.04) (width 0.5) (layer B.Cu) (net 6))
   (segment (start 167.33 72.27) (end 167.3 72.3) (width 0.5) (layer F.Cu) (net 7))
   (segment (start 170.9 72.27) (end 167.33 72.27) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 164.825 79.6) (end 164.7 79.6) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 166.17501 78.24999) (end 164.825 79.6) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 163.459999 73.825797) (end 166.17501 76.540808) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 163.459999 71.675999) (end 163.459999 73.825797) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 166.17501 76.540808) (end 166.17501 78.24999) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 164.135999 70.999999) (end 163.459999 71.675999) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 165.999999 70.999999) (end 164.135999 70.999999) (width 0.5) (layer F.Cu) (net 7))
-  (segment (start 167.3 72.3) (end 165.999999 70.999999) (width 0.5) (layer F.Cu) (net 7))
+  (segment (start 166.500001 77.924999) (end 164.825 79.6) (width 0.5) (layer B.Cu) (net 7))
+  (segment (start 166.500001 73.099999) (end 166.500001 77.924999) (width 0.5) (layer B.Cu) (net 7))
+  (segment (start 164.825 79.6) (end 164.7 79.6) (width 0.5) (layer B.Cu) (net 7))
+  (segment (start 167.3 72.3) (end 166.500001 73.099999) (width 0.5) (layer B.Cu) (net 7))
   (segment (start 193.51 81.31) (end 192.4 80.2) (width 0.5) (layer F.Cu) (net 8))
   (segment (start 195.09 81.31) (end 193.51 81.31) (width 0.5) (layer F.Cu) (net 8))
 

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HLK-PM01_Breakout_board-cache
+LIBS:InWall-ACDC-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -244,7 +244,7 @@ F 1 "Conn_01x03" H 8780 3851 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 8700 3900 50  0001 C CNN
 F 3 "~" H 8700 3900 50  0001 C CNN
 	1    8700 3900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R1
