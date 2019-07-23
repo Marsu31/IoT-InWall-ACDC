@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:InWall-ACDC-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -125,7 +125,7 @@ U 1 1 5D37DFFE
 P 3350 3850
 F 0 "J1" H 3500 3800 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3700 3600 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3350 3850 50  0001 C CNN
+F 2 "Project_Module:TerminalBlock_bornier-2_P5.08mm" H 3350 3850 50  0001 C CNN
 F 3 "~" H 3350 3850 50  0001 C CNN
 	1    3350 3850
 	-1   0    0    -1  
